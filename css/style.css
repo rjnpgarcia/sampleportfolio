@@ -1,0 +1,38 @@
+/* navbar styling */
+.navbar-brand img{
+    width: 45px;
+    margin: auto;
+    padding: 0%;
+}
+
+.home-img img{
+    width: 400px;
+}
+
+/* about section styling */
+.progress{
+    height: 5px;
+}
+
+/* portfolio section styling */
+.portfolio img:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+    -ms-transition: .1s;
+    -o-transition: .1s;
+}
+/* modal styling */
+#gallery-modal .modal-image{
+    width: 100%;
+}
+
+/* review section styling */
+.reviews img{
+    width: 80px;
+}

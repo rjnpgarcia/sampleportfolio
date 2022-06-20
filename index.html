@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ralph - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body class="bg-light">
+  <!-- header start -->
+  <header class="home py-5" id="home">
+    <div class="container-lg">
+      <div class="row min-vh-100 align-items-center align-content-center">
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="home-img text-center">
+            <img src="img/mypic.png" alt="profile image" class="rounded-circle mw-100">
+          </div>
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+          <div class="home-text">
+            <p class="text-muted mb-1">Hello I'm</p>
+            <h2 class="text-info text-uppercase fs-1 fw-bold">Ralph Garcia</h2>
+            <h2 class="fs-4 text-uppercase">Web Developer</h2>
+            <p class="mt-4 text-muted">A simple guy with a lot of passion in web development and technology. <br>I love what I do.</p>
+            <a href="#portfolio" class="btn btn-info px3 mt-3">My Work</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+  
+  <!-- navbar start -->
+  <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+    <div class="container-lg">
+      <a class="navbar-brand text-info fw-bold fs-4" href="#"><img src="img/profile.png" alt="profile thumbnail" class="rounded-circle bg-info"></a>
+        <div class="dropdown">
+          <button class="btn btn-secondary btn-info px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+          </button>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#home">Home</a></li>
+              <li><a class="dropdown-item" href="#about">About</a></li>
+              <li><a class="dropdown-item" href="#skills">Skills</a></li>
+              <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+              <li><a class="dropdown-item" href="#reviews">Reviews</a></li>
+              <li><a class="dropdown-item" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+  
+  <!-- about section start -->
+  <section class="about py-5" id="about">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">About Me</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="about-text">
+            <h3 class="fs-4 mb-3">Hi! I am Ralph Garcia! Nice to meet you!.</h3>
+            <p class="text-muted">I am a software developer that focuses on front-end development. Through hardwork, determination, and passion, I've build myself a great foundation in web development and continues to further improve my programming skills.</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 d-flex align-items-center">
+              <a href="#" class="btn px-3 btn-info me-5">Download CV</a>
+              <div class="social-links ">
+                <a href="http://facebook.com" target="_blank" class="text-info me-2 fs-4"><i class="fab fa-facebook"></i></a>
+                <a href="http://instagram.com" target="_blank" class="text-info me-2 fs-4"><i class="fab fa-instagram"></i></a>
+                <a href="http://linkedin.com" target="_blank" class="text-info fs-4"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">HTML</h3>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">CSS</h3>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <h3 class="fs-6">JavaScript</h3>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about section end -->
+
+  <!-- skills section start -->
+  <section class="skills py-5" id="skills">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">Skills</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-6 col-lg-4">
+          <div class="service-item shadow p-4 rounded bg-white mb-4">
+            <div class="icon my-3 text-info fs-1">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <h3 class="fs-5 py-2">HTML5</h3>
+            <p class="text-muted">Web design, Web Accessibility, Semantics.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service-item shadow p-4 rounded bg-white mb-4">
+            <div class="icon my-3 text-info fs-1">
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <h3 class="fs-5 py-2">CSS3</h3>
+            <p class="text-muted">Animation, Grid, Flexbox, Web Design, Pseudo Classes and Elements, Positioning, Styling, Responsive Design.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service-item shadow p-4 rounded bg-white mb-4">
+            <div class="icon my-3 text-info fs-1">
+              <i class="fa-brands fa-js-square"></i>
+            </div>
+            <h3 class="fs-5 py-2">JavaScript</h3>
+            <p class="text-muted">DOM, Functions, Events, THIS, Arrays.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service-item shadow p-4 rounded bg-white mb-4">
+            <div class="icon my-3 text-info fs-1">
+              <i class="fa-brands fa-sass"></i>
+            </div>
+            <h3 class="fs-5 py-2">SASS</h3>
+            <p class="text-muted">JSON, Advance Styling.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service-item shadow p-4 rounded bg-white mb-4">
+            <div class="icon my-3 text-info fs-1">
+              <i class="fa-brands fa-bootstrap"></i>
+            </div>
+            <h3 class="fs-5 py-2">Bootstrap</h3>
+            <p class="text-muted">Responsive Design, Web Design.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service-item shadow p-4 rounded bg-white mb-4">
+            <div class="icon my-3 text-info fs-1">
+              <i class="fa-brands fa-react"></i>
+            </div>
+            <h3 class="fs-5 py-2">React JS</h3>
+            <p class="text-muted">Advanced front-end development, Form Inputs, Dynamic Styles, Debugging.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- skills section end -->
+
+  <!-- portfolio section start -->
+  <section class="portfolio py-5" id="portfolio">
+    <div class="contaioner-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">Portfolio</h2>
+            <p class="text-muted text-uppercase fs-6">Click Images to see</p>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src="img/portfolio/1.jpeg" alt="team section project" class="w-100 img-thumbnail">
+            <h3 class="my-2 fs-5 my-3">Graffiti Art</h3>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src="img/portfolio/2.jpeg" alt="team section project" class="w-100 img-thumbnail">
+            <h3 class="my-2 fs-5 my-3">Skate Meet Ups</h3>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src="img/portfolio/3.jpeg" alt="team section project" class="w-100 img-thumbnail">
+            <h3 class="my-2 fs-5 my-3">Board, Wheels, & Trucks</h3>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src="img/portfolio/4.jpeg" alt="team section project" class="w-100 img-thumbnail">
+            <h3 class="my-2 fs-5 my-3">Paint Art</h3>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src="img/portfolio/5.jpeg" alt="team section project" class="w-100 img-thumbnail">
+            <h3 class="my-2 fs-5 my-3">Sunset Swing</h3>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src="img/portfolio/6.jpeg" alt="team section project" class="w-100 img-thumbnail">
+            <h3 class="my-2 fs-5 my-3">Forest Light</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- for modal (lightbox) -->
+  <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="photo-gallery" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="photo-gallery">Photo Gallery</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="img/portfolio/1.jpg" alt="modal image 1" class="modal-img w-100">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- portfolio section end -->
+
+  <!-- freelance section start -->
+  <section class="freelance-available py-5 bg-info">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <p class="text-light fs-5">Do you have any project ?</p>
+          <h2 class="text-dark mb-4 fs-1">I'm Available For Freelancer Projects</h2>
+          <a href="#contact" class="btn btn-outline-light">Hire Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- freelance section end -->
+
+  <!-- review section carousel start -->
+  <section class="reviews py-5" id="reviews">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">Reviews</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-7">
+          <div id="carousel1" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active bg-info" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2" class="bg-info"></button>
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3" class="bg-info"></button>
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="3" aria-label="Slide 4" class="bg-info"></button>
+              </div>
+            <div class="carousel-inner p-1">
+            <!-- review item start -->
+              <div class="review-item bg-white carousel-item active shadow rounded p-4 mb-5">
+                <div class="review-author-info d-flex align-items-center">
+                  <img src="img/reviews/1.JPG" alt="author image 1" class="img-thumbnail rounded-circle">
+                  <div class="author ms-3">
+                    <h3 class="fs-6 mb-1">Ysabel Leanne</h3>
+                    <p class="text-muted m-0">SEO Manager</p>
+                  </div>
+                </div>
+                <p class="text-muted mt-3">I love his designs. Very well done!</p>
+                <div class="rating text-info">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="review-item bg-white carousel-item shadow rounded p-4 mb-5">
+                <div class="review-author-info d-flex align-items-center">
+                  <img src="img/reviews/2.JPG" alt="author image 1" class="img-thumbnail rounded-circle">
+                  <div class="author ms-3">
+                    <h3 class="fs-6 mb-1">Khaira Dominique</h3>
+                    <p class="text-muted m-0">SEO Manager</p>
+                  </div>
+                </div>
+                <p class="text-muted mt-3">Web designs are made with good quality.</p>
+                <div class="rating text-info">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+              </div>
+              <div class="review-item bg-white carousel-item shadow rounded p-4 mb-5">
+                <div class="review-author-info d-flex align-items-center">
+                  <img src="img/reviews/3.JPG" alt="author image 1" class="img-thumbnail rounded-circle">
+                  <div class="author ms-3">
+                    <h3 class="fs-6 mb-1">Yvette Louise</h3>
+                    <p class="text-muted m-0">SEO Manager</p>
+                  </div>
+                </div>
+                <p class="text-muted mt-3">Very passionate and have good work ethics.</p>
+                <div class="rating text-info">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="review-item bg-white carousel-item shadow rounded p-4 mb-5">
+                <div class="review-author-info d-flex align-items-center">
+                  <img src="img/reviews/4.JPG" alt="author image 1" class="img-thumbnail rounded-circle">
+                  <div class="author ms-3">
+                    <h3 class="fs-6 mb-1">Pamela Danielle</h3>
+                    <p class="text-muted m-0">SEO Manager</p>
+                  </div>
+                </div>
+                <p class="text-muted mt-3">Websites are made creatively!</p>
+                <div class="rating text-info">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-stroke"></i>
+                </div>
+              </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- review item end -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- review section carousel end -->
+
+  <!-- contact section start -->
+  <section class="contact py-5" id="contact">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">Contact Me</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5">
+          <div class="contact-item d-flex mb-3">
+            <div class="icon fs-4 text-info">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="text ms-3">
+              <h3 class="fs-5">Email</h3>
+              <p class="text-muted">example@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item d-flex mb-3">
+            <div class="icon fs-4 text-info">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="text ms-3">
+              <h3 class="fs-5">Phone</h3>
+              <p class="text-muted">+01 123 4567890</p>
+            </div>
+          </div>
+          <div class="contact-item d-flex mb-3">
+            <div class="icon fs-4 text-info">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="text ms-3">
+              <h3 class="fs-5">Visit Me</h3>
+              <p class="text-muted">Mother Ignacia, <br>Quezon City, Philippines</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="contact-form">
+            <form>
+              <div class="row">
+                <div class="col-lg-6 mb-4">
+                  <input type="text" placeholder="Your Name" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <input type="text" placeholder="Your Email" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 mb-4">
+                  <input type="text" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 mb-4">
+                  <textarea rows="5" placeholder="Your Message" class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <button type="submit" class="btn btn-info px-3">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact section end -->
+
+  <!-- footer start -->
+  <footer class="footer border-top py-4">
+    <div class="container-lg">
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="m-0 text-center text-muted">&copy; 2022 Ralphstarrr</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+  
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
